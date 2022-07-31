@@ -58,7 +58,6 @@ body{
 }
 
 .right{
-
   flex-basis: 25%;
 }
 
@@ -101,4 +100,44 @@ body{
   list-style-type: none;
   text-decoration: none;
   margin-top: 5px;
+}
+
+@media (max-width:400px) {
+  .left{
+    flex-basis: 90%;
+  }
+  .right{
+    flex-basis: 10%;
+  }
+  .left p{
+    font-size: 20px;
+  }
+  .left h1{
+    font-size: 40px;
+    margin-left: 25px;
+  }
+  .design{
+    font-size: 30px;
+  }
+  .dev{
+    font-size: 30px;
+  }
+  .top-right h2{
+  font-size: 15px;
+  }
+  .top-right h3{
+    margin-top: -15px;
+    font-size: 15px;
+  }
+  .skill {
+    width: 110px;
+    padding: 10px;
+  } 
+  .skill h1{
+    font-size: 25px;
+  }
+  .skill ul li{
+    font-size: 15px;
+    margin-left: -30px;
+  }
 }
