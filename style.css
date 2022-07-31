@@ -114,13 +114,15 @@ body{
   }
   .left h1{
     font-size: 40px;
-    margin-left: 25px;
+    margin-left: 60px;
   }
   .design{
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 60px;
   }
   .dev{
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 60px;
   }
   .top-right h2{
   font-size: 15px;
